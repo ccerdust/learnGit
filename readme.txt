@@ -31,5 +31,4 @@
    > git 跟踪管理修改而不是文件，所以优秀
 
 4. git diff HEAD -- readme.txt `查看当前版本库与本地文件的区别`
-5. 
-
+5. git checkout -- readme.txt `让文件回到最近一次修改`
