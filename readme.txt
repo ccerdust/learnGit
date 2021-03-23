@@ -32,3 +32,20 @@
 
 4. git diff HEAD -- readme.txt `查看当前版本库与本地文件的区别`
 5. git checkout -- readme.txt `让文件回到最近一次修改`
+
+#### 远程仓库
+
+>
+>
+>上面是在本地仓库进行操作，下面将其推送到远程
+>
+>
+
+**1、** 本地仓库内必须有`README.md`文件
+
+**2、** git  branch -M main   `创建主分支`
+
+**3、** git remote add origin https://github.com/dustccer/learnGit.git   `创建远程库链接地址`
+
+**4、** git push -u origin main  `推送到远程库主分支`
+
