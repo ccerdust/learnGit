@@ -73,3 +73,4 @@
 
 **3、** git branch     `查看当前拥有的分支`
 
+**4、**  git checkout main     git merge dev   `切回主分支  --> 合并dev分支上的文件到主分支 `
