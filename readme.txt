@@ -74,3 +74,11 @@
 **3、** git branch     `查看当前拥有的分支`
 
 **4、**  git checkout main     git merge dev   `切回主分支  --> 合并dev分支上的文件到主分支 `
+
+**5、**  git merge dev  `合并dev分支到到当前分支`    
+
+>提示Fast-forward  为此次合并为快进模式 ，直接把main的指针指向的dev
+
+**6、** git branch -d dev `删除dev分支`
+
+是
