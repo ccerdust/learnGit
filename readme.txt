@@ -95,5 +95,59 @@
 
 **12、** git remote -v  `查看远程库信息`
 
-**13、** git pull `将远程版本抓取下来`
+**13、** git pull `将远程当前版本抓取下来`
 
+**14、** git rebase `将本地未push的分叉整理的更干净`
+
+#### 标签管理
+
+**1、** git tag v1.0    `创建一个叫做v1.0的标签`
+
+**2、** git tag v0.9 [commit指令md5] `给这个提交打标签`
+
+**3、** git show v1.0  `查看这个tag的详细信息`
+
+**4、** git tag -a v0.1 -m "version 0.1 released"  `给标签附上说明`
+
+**5、** git tag -d v0.1  `删除标签`
+
+**6、** git push origin v0.1  `推送标签到远程`
+
+**7、** git push origin --tags  `推送全部标签到远程`
+
+**8、** git push origin :refs/tags/v0.9  `删除远程标签`
+
+
+
+
+
+**自定义Git**
+
+**忽略文件**
+
+>在Git工作区的根目录下创建一个特殊的`.gitignore`文件，然后把要忽略的文件名填进去
+
+>`例如：`
+>
+>```
+># Windows:
+>Thumbs.db
+>ehthumbs.db
+>Desktop.ini
+>
+># Python:
+>*.py[cod]
+>*.so
+>*.egg
+>*.egg-info
+>dist
+>build
+>
+># My configurations:
+>db.ini
+>deploy_key_rsa
+>```
+
+**配置别名**
+
+1、 git config --global alias.st status         `st代表status`
