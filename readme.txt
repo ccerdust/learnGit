@@ -47,5 +47,29 @@
 
 **3、** git remote add origin https://github.com/dustccer/learnGit.git   `创建远程库链接地址`
 
-**4、** git push -u origin main  `推送到远程库主分支`
+**4、** git push -u origin main  `推送到远程库主分支，第一次需要加参数-u`
+
+**5、** git push origin main `推送到远程库主分支，因为已经链接了所以直接到了github上`
+
+>远程库名写错了或者想要删除 1. git remote -v 查看远程库 2.git remote rm origin 删除远程库
+
+**6、**  git clone https://github.com/dustccer/learnGit.git `克隆仓库，即下载`
+
+#### 分支管理
+
+>HEAD指向当前分支
+>
+>当我们创建新的分支，例如`dev`时，Git新建了一个指针叫`dev`，指向`master`相同的提交，再把`HEAD`指向`dev`，就表示当前分支在`dev`上：
+>
+>创建新分支 --> 改动都到了新分支上，主分支不变 --> 合并新分支到主分支上-->删除新分支
+
+**1、** git branch dev     `创建一个dev新分支`
+
+**2、** git checkout dev  `切换到dev分支上`              
+
+>以上也可以一条命令  `git checkout  -b dev`    -b表示创建并切换
+
+ 
+
+**3、** git branch     `查看当前拥有的分支`
 
