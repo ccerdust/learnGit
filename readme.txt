@@ -91,3 +91,9 @@
 
 >以上两条命令可以用`git stash pop` 代替
 
+**11、** git cherry-pick xxxxx `复制某次提交的内容到当前分支`
+
+**12、** git remote -v  `查看远程库信息`
+
+**13、** git pull `将远程版本抓取下来`
+
