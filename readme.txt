@@ -81,12 +81,13 @@
 
 **6、** git branch -d dev `删除dev分支`
 
-```
-<<<<<<< HEAD
-Creating a new branch is quick AND simple.
+**7、** git stash  `存储工作区`
 
-no simple
-=======
-git log --graph --pretty=oneline --abbrev-commit
->>>>>>> feature
-```
+**8、** git stash list `查看存储的工作区列表`
+
+**9、** git stash apply `恢复存储的工作区,但此方式不会删除存储的工作区`
+
+**10、** git stash drop  `删除存储的工作区`
+
+>以上两条命令可以用`git stash pop` 代替
+
