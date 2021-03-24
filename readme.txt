@@ -81,4 +81,6 @@
 
 **6、** git branch -d dev `删除dev分支`
 
-是
+```
+Creating a new branch is quick & simple.
+```
