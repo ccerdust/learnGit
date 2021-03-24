@@ -82,5 +82,5 @@
 **6、** git branch -d dev `删除dev分支`
 
 ```
-Creating a new branch is quick AND simple.
+git log --graph --pretty=oneline --abbrev-commit
 ```
